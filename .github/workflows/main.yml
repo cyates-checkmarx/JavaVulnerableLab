@@ -15,6 +15,4 @@ jobs:
           project_name: ${{ github.repository }}
           cx_tenant: checkmarx-global-services-internal
           base_uri: https://deu.ast.checkmarx.net/
-          cx_client_id: ${{ secrets.CX_CLIENT_ID }}
-          cx_client_secret: ${{ secrets.CX_CLIENT_SECRET }}
-          cx_APIKEY: ${{ secrets.CX_APIKEY }}
+          cx_apikey: ${{ secrets.CX_APIKEY }}
