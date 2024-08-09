@@ -1,3 +1,4 @@
+#test
 name: Checkmarx One Scan
 on:
   push:
